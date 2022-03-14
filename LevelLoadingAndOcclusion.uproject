@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7D09AA08-491A-5310-D6FB-69889AD45A6C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "OcclusionTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": false
+		}
+	],
+	"TargetPlatforms": [
+		"HTML5"
+	]
+}
